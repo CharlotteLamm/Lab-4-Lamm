@@ -8,6 +8,7 @@ body {font-family: sans-serif;}
     display: inline;
     margin-right: 10%;
     padding-bottom:5%;
+    /* how do you make the list appear in the center */
 }
 
 h1 {background-color:lightblue;
@@ -17,6 +18,7 @@ h1 {background-color:lightblue;
    margin-top: 5% ;
    margin-bottom: 5%;
   text-align: center
+  /* margin on the top is not working *shrug */
 }
 
 h3 {background-color:lightblue;
@@ -35,4 +37,7 @@ footer {
     padding-top: 6%;
   text-align: center}
   
+/*   how to resize images in CSS - did it in html
+     felx boxes? - can i use them to make the image on the right and the writing on the left
+*/
  
