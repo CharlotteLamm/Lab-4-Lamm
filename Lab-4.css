@@ -8,36 +8,40 @@ body {font-family: sans-serif;}
     display: inline;
     margin-right: 10%;
     padding-bottom:5%;
-    /* how do you make the list appear in the center */
+    text-align:center;
+    font-size:1vw;
 }
 
-h1 {background-color:lightblue;
-  font-size:3wv;
-  width: 10%;
-  margin: auto;
-   margin-top: 5% ;
-   margin-bottom: 5%;
-  text-align: center
-  /* margin on the top is not working *shrug */
+h1 {
+  font-size:4vw;
+  text-align:left;
 }
 
-h3 {background-color:lightblue;
-    max-width: 50% auto;
+h3 {
+  background-color:lightblue;
+    max-width: 50%;
     text-align: center;
+    font-size:2vw;
 }
 
 #about {
   border: 4px;
   max-width: 50%;
   padding-bottom:5%;
+  font-size:2vw;
 }
-#favs {max-width: 27%;}
+#favs {
+  max-width: 27%;
+  font-size:2vw;
+}
+
+#music {
+  font-size:2vw;
+  text-align:left;
+}
 
 footer {
     padding-top: 6%;
-  text-align: center}
-  
-/*   how to resize images in CSS - did it in html
-     felx boxes? - can i use them to make the image on the right and the writing on the left
-*/
- 
+  text-align: left;
+  font-size:1vw;
+}
